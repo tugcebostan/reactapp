@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 
 const Navbar=(props)=> {
     return (
@@ -9,5 +10,11 @@ const Navbar=(props)=> {
             <hr/>
         </div>
     )
+}
+Navbar.propTypes ={
+    title:PropTypes.string.isRequired
+}
+Navbar.defaultProps={
+    title:"Default Prop"
 }
 export default Navbar;

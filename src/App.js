@@ -9,7 +9,7 @@ class App extends Component {
   render(){
     return (
       <div className="container-xxl">
-      <Navbar title="User App 2"/>
+      <Navbar />
       <User 
       name="Yunus Bostan" 
       salary="15000"
@@ -17,8 +17,6 @@ class App extends Component {
       />
         <User 
       name="Tuğçe Bostan" 
-      salary="8000"
-      department="Bilişim"
       />
       </div>
     ) 
